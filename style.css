@@ -330,13 +330,25 @@ section .button button:hover {
 }
 
 .boxs {
+  height: 97px;
   width: 200px;
   padding: 15px;
   border-radius: 20px;
   margin: 10px;
   text-align: center;
   color: #000000;
-  background: linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
+  background: rgb(135, 206, 250);
+}
+
+.newboxs {
+  height: 70px;
+  width: 200px;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 10px;
+  text-align: center;
+  color: #000000;
+  background: rgb(135, 206, 250);
 }
 
 progress {
@@ -695,7 +707,7 @@ footer .text span a:hover {
 }
 
 .but {
-  background-color: #00cbda;
+  background-color: #d6d6d6;
   border: none;
   padding: 15px 32px;
   text-align: center;
@@ -817,4 +829,39 @@ footer .text span a:hover {
 .ach .boxes .box:hover .topic,
 .ach .boxes .box:hover p {
   color: rgb(10, 10, 10);
+}
+
+.box .align li::before {
+  content: "\2022";
+  color: #007bff;
+  font-size: 1.9em;
+  margin-right: 10px;
+}
+
+.box .align li {
+  margin-bottom: 10px;
+}
+
+.box .align li {
+  list-style-type: none;
+  position: relative;
+}
+
+
+
+
+.box .two li::before {
+  content: "\2022";
+  color: #007bff;
+  font-size: 1.9em;
+  margin-right: 10px;
+}
+
+.box .two li {
+  margin-bottom: 10px;
+}
+
+.box .two li {
+  list-style-type: none;
+  position: relative;
 }

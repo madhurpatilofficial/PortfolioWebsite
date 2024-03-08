@@ -12,10 +12,8 @@ window.onscroll = function() {
     nav.classList.remove("sticky");
     scrollBtn.style.display = "auto";
   }
-
 }
 
-// Side NavIgation Menu JS Code
 let body = document.querySelector("body");
 let navBar = document.querySelector(".navbar");
 let menuBtn = document.querySelector(".menu-btn");
@@ -43,6 +41,4 @@ for (var i = 0; i < navLinks.length; i++) {
     menuBtn.style.opacity = "1";
     menuBtn.style.pointerEvents = "auto";
   });
-
-
 }
